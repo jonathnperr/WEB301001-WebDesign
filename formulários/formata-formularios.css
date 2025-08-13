@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+ font-family: "Yanone Kaffeesatz", Oswald;
+ font-size: 20px; /*controla o tamanho da fonte*/
+}
+
+h1 {
+ color: rgb(47,79,79);
+ background-color: rgb(102,205,170);
+ text-shadow: 1px 1px #fff;
+ border-bottom: 1px solid #000;
+ text-align: center;
+}
+

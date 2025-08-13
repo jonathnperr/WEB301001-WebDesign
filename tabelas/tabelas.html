@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Tabelas com HTML5 </title> 
+  <style>
+   table {
+    border: 1px solid green;
+    height: 250px;
+    /*centralizar a tabela na horizontal*/
+    margin: 30px auto;
+    width: 400px;
+   }
+
+   td, th {
+    border: 1px solid green;
+   }
+
+  h1, p {
+   text-align: center;
+  }
+  </style>
+</head> 
+
+<body> 
+ <h1> Marcação de tabelas com HTML5 </h1>
+
+ <!-- Tags principais de tabelas em HTML5 -->
+ <table>
+  <caption> Web Design - renedimento semestral dos alunos </caption>
+
+  <tr>
+   <th> Matrícula </th>
+   <th> Aluno </th>
+   <th> Média Final </th>
+  </tr>
+
+  <tr>
+   <td> A1010-1 </td>
+   <td> Maria das Graças </td>
+   <td> 8,5 </td>
+  </tr>
+
+  <tr>
+   <td> A1010-2 </td>
+   <td> João de Almeida </td>
+   <td> 5,5 </td>
+  </tr>
+
+  <tr>
+   <td> A1010-3 </td>
+   <td> Carla Margarete Pereira </td>
+   <td> 9,5 </td>
+  </tr>
+ </table>
+ 
+ <!--desenhando a tabela 2-->
+ <p> Tabela número 2: </p>
+
+ <table>
+  <caption> Orçamento mensal - balanço </caption>
+
+  <tr>
+   <th> Tipo de despesa </th>
+   <th> Descrição </th>
+   <th> Valor (R$) </th>
+  </tr>
+
+  <tr>
+   <td rowspan="3"> Doméstica </td>
+   <td> Compras do mês </td>
+   <td> 900,00 </td>
+  </tr>
+
+  <tr>
+   <td> Aluguel </td>
+   <td> 1100,00 </td>
+  </tr>
+
+  <tr>
+   <td> Luz </td>
+   <td> 250,00 </td>
+  </tr>
+
+  <tr>
+   <td> Pensão alimentícia </td>
+   <td colspan="2" rowspan="2"> Sem registros até o momento </td>   
+  </tr>
+
+  <tr>
+   <td> Judicial </td>
+  </tr>
+
+  <tr>
+   <td> Viagem </td>
+   <td> Mestrado </td>
+   <td> 4750,00 </td>
+  </tr>
+
+  <tr>
+   <th colspan="2"> Total </th>
+   <td> 7000,00 </td>
+  </tr>
+ </table> 
+</body> 
+</html> 
